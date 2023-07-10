@@ -1,0 +1,200 @@
+{
+    "python.pythonPath": "python3",
+    "editor.renderWhitespace": "all",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.rulers": [79,120],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081",
+        "window.activeBorder": "#295c81",
+        "window.inactiveBorder": "#cccccc",
+        "activityBar.activeBackground": "#76c0f5",
+        "activityBar.activeBorder": "#295c81",
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.openPositioning": "last",
+    "search.showLineNumbers": true,
+    "debug.inlineValues": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "python.linting.banditEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylamaEnabled": true,
+    "search.quickOpen.includeSymbols": true,
+    "python.formatting.provider": "yapf",
+    "git.supportCancellation": true,
+    "editor.cursorSurroundingLines": 2,
+    "workbench.colorTheme": "Prism",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "autoDocstring.docstringFormat": "google",
+    "window.zoomLevel": 0,
+    "sshfs.configs": [
+        {
+            "host": "34.208.155.175",
+            "name": "py_remote_debug",
+            "port": 30354,
+            "root": "/MyDrive/py_remote_debug",
+            "username": "root",
+            "privateKeyPath": "/home/msamir/.ssh/id_rsa"
+        }
+    ],
+    "editor.formatOnPaste": true,
+    "bracketPairColorizer.consecutivePairColors":[
+        "()",
+        "[]",
+        "{}",
+        [
+            "Blue",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "editor.fontSize": 16,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/env": true,
+        "**/venv": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.mypy_cache": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "venv": true,
+        "*.sublime-*": true,
+        "env*": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.mypy_cache": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "venv": true,
+        "*.sublime-*": true,
+        "env*": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/bower_components": true,
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.mypy_cache": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "venv": true,
+        "*.sublime-*": true,
+        "env*": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/bower_components": true,
+    },
+    "telemetry.enableTelemetry": false,
+    "vsicons.projectDetection.disableDetect": true,
+    "remote.SSH.configFile": "/home/moutaz/.ssh/config",
+    "remote.SSH.showLoginTerminal": true,
+    "leetcode.workspaceFolder": "/home/msamir/code/java",
+    "leetcode.defaultLanguage": "java",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.showCommentDescription": true,
+    "leetcode.hint.commentDescription": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "yaml.schemas": {
+        "file:///home/msamir/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+        "file:///home/msamir/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml",
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "todo-tree.tree.showScanModeButton": false,
+    "files.associations": {
+        "*.jenkins": "jenkins"
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false
+    },
+    "tabnine.experimentalAutoImports": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.kubectl-path.linux": "/home/moutaz/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.linux": "/home/moutaz/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.helm-path.linux": "/home/moutaz/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/moutaz/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    },
+    "java.semanticHighlighting.enabled": true,
+    "cSpell.userWords": [
+        "envs",
+        "iloc",
+        "myapp",
+        "postgres",
+        "postgresql"
+    ],
+    "todo-tree.filtering.includeHiddenFiles": true,
+    "todo-tree.highlights.enabled": false,
+    "java.project.referencedLibraries": [
+        "library/**/*.jar",
+        "/home/moutaz/java_added_jars/*.jar"
+    ],
+    "go.formatTool": "goimports",
+    "go.toolsManagement.autoUpdate": true,
+    "docker.showStartPage": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.depreciation-notice": false
+}
+

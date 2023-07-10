@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaults
+[{
+    "key": "ctrl+f5",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+d ctrl+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+l ctrl+t",
+    "command": "leetcode.testSolution",
+    "when": "!editorReadonly"
+},
+{
+    "key": "ctrl+l ctrl+s",
+    "command": "leetcode.submitSolution",
+    "when": "editorTextFocus && !editorReadonly"
+}
+]
+
